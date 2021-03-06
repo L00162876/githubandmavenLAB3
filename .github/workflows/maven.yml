@@ -48,6 +48,6 @@ jobs:
     needs: build
     steps: 
       - name: Publish to GitHub Packages Apache Maven
-        run: mvn - cd mavengithubactionlab deploy 
+        run: mvn -B deploy --file pom.xml 
         env:
           GITHUB_TOKEN: ${{ github.token }} 
