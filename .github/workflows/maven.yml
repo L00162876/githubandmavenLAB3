@@ -48,6 +48,6 @@ jobs:
     needs: build
     steps: 
       - name: Publish to GitHub Packages Apache Maven
-        run: mvn - cd /home/runner/work/githubandmavenLAB3/githubandmavenLAB3/target/mavengithubactionlab-0.0.1-SNAPSHOT.jar deploy 
+        run: mvn -f githubandmavenLAB3/pom.xml deploy 
         env:
           GITHUB_TOKEN: ${{ github.token }} 
