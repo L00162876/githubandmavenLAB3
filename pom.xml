@@ -72,12 +72,6 @@
       </plugins>
     </pluginManagement>
   </build>
-  
-  <distributionManagement>
-  	<repository>
-  		<id>github</id>
-  		<name>GitHub L00162876 Apache Maven Packages</name>
-  		<url>https://maven.pkg.github.com/L0016287/mavengithubactionlab</url>
-  	</repository>
-  </distributionManagement>
+    
+ 
 </project>
